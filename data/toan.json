@@ -1,0 +1,169 @@
+{
+      
+      "name": "Toán",
+      "quizzes": [
+        {
+          "title": "Hình trụ - Hình nón - Hình cầu",
+          "timeLimit": 0,
+          "questions": [
+            {
+              "text": "Cho hình chữ nhật $ABCD$ $(AB=2a,\\ BC=a)$. Quay hình chữ nhật đó xung quanh $BC$ thì được hình trụ có thể tích $V_1$; quay quanh $AB$ thì được hình trụ có thể tích $V_2$. Khi đó ta có:",
+              "choices": ["$V_1=V_2$", "$V_1=2V_2$", "$V_2=2V_1$", "$V_1=4V_2$"],
+              "answer": 1,
+              "explanation": "Quay quanh $BC$ (trục $BC$): bán kính $r=AB=2a$, chiều cao $h=BC=a$ nên $V_1=\\pi r^2h=\\pi(2a)^2\\cdot a=4\\pi a^3$. Quay quanh $AB$ (trục $AB$): $r=BC=a$, $h=AB=2a$ nên $V_2=\\pi a^2\\cdot 2a=2\\pi a^3$. Suy ra $V_1=2V_2$."
+            },
+            {
+              "text": "Cho tam giác $ABC$ vuông tại $A$, biết $AB=3\\text{ cm}$, $AC=2\\text{ cm}$. Quay tam giác $ABC$ quanh cạnh $AC$ được hình nón. Thể tích hình nón bằng:",
+              "choices": ["$6\\pi$", "$12$", "$4\\pi$", "$18$"],
+              "answer": 0,
+              "explanation": "Khi quay quanh $AC$: bán kính đáy $r=AB=3$, chiều cao $h=AC=2$. Thể tích $V=\\dfrac13\\pi r^2h=\\dfrac13\\pi\\cdot 3^2\\cdot 2=6\\pi$."
+            },
+            {
+              "text": "Cho nửa đường tròn tâm $O$, đường kính $AB=6\\text{ cm}$ cố định. Quay nửa đường tròn đó quanh $AB$ thì được một hình cầu. Thể tích hình cầu bằng:",
+              "choices": ["$288\\pi$", "$9\\pi$", "$27\\pi$", "$36\\pi$"],
+              "answer": 3,
+              "explanation": "Đường kính $AB=6$ nên bán kính hình cầu $R=3$. Thể tích hình cầu $V=\\dfrac{4}{3}\\pi R^3=\\dfrac{4}{3}\\pi\\cdot 3^3=36\\pi$."
+            },
+            {
+              "text": "Hình chữ nhật $ABCD$, $AB=10\\text{ cm}$, $AD=12\\text{ cm}$. Quay hình chữ nhật $ABCD$ quanh cạnh $AB$, thể tích hình sinh ra là:",
+              "choices": ["$300\\pi$", "$1440\\pi$", "$1200\\pi$", "$600\\pi$"],
+              "answer": 1,
+              "explanation": "Quay quanh $AB$ tạo hình trụ có chiều cao $h=AB=10$, bán kính $r=AD=12$. Thể tích $V=\\pi r^2h=\\pi\\cdot 12^2\\cdot 10=1440\\pi$."
+            },
+            {
+              "text": "Hình nón có bán kính đáy $r=10\\text{ cm}$, chiều cao $h=9\\text{ cm}$. Thể tích hình nón là:",
+              "choices": ["$912$", "$942$", "$932$", "$952$"],
+              "answer": 1,
+              "explanation": "Thể tích hình nón $V=\\dfrac13\\pi r^2h=\\dfrac13\\pi\\cdot 10^2\\cdot 9=300\\pi\\approx 942.48$. Chọn gần đúng $942$."
+            },
+            {
+              "text": "Tam giác $ABC$ vuông tại $A$ có $AB=6\\text{ cm}$, $AC=8\\text{ cm}$. Thể tích hình sinh ra khi quay tam giác $ABC$ quanh $AB$ là:",
+              "choices": ["$24\\pi$", "$32\\pi$", "$96\\pi$", "$128\\pi$"],
+              "answer": 3,
+              "explanation": "Quay quanh $AB$: được hình nón có bán kính đáy $r=AC=8$, chiều cao $h=AB=6$. $V=\\dfrac13\\pi r^2h=\\dfrac13\\pi\\cdot 8^2\\cdot 6=128\\pi$."
+            },
+            {
+              "text": "Một hình nón có diện tích xung quanh $S_{xq}=72\\pi$, bán kính đáy $r=6\\text{ cm}$. Độ dài đường sinh $l$ là:",
+              "choices": ["$6\\text{ cm}$", "$8\\text{ cm}$", "$12\\text{ cm}$", "$13\\text{ cm}$"],
+              "answer": 2,
+              "explanation": "Diện tích xung quanh hình nón: $S_{xq}=\\pi r l$. Suy ra $72\\pi=\\pi\\cdot 6\\cdot l\\Rightarrow l=12\\text{ cm}$."
+            }
+          ]
+        },
+        {
+          "title": "Hình trụ - Hình nón 2",
+          "timeLimit": 0,
+          "questions": [
+            {
+              "text": "Hình chữ nhật có chiều dài $8\\text{ cm}$, chiều rộng $6\\text{ cm}$. Quay hình chữ nhật đó một vòng quanh chiều dài của nó ta được một hình trụ có chiều cao $h$ và bán kính đáy $r$. Kết luận nào sau đây là đúng?",
+              "choices": ["$r=8\\text{ cm},\\ h=6\\text{ cm}$", "$r=4\\text{ cm},\\ h=3\\text{ cm}$", "$r=3\\text{ cm},\\ h=4\\text{ cm}$", "$r=6\\text{ cm},\\ h=8\\text{ cm}$"],
+              "answer": 3,
+              "explanation": "Quay quanh chiều dài $8$ nên $h=8$. Bán kính là chiều rộng $6$ nên $r=6$."
+            },
+            {
+              "text": "Gọi $h, r$ lần lượt là chiều cao và bán kính đáy của hình trụ $(T)$. Thể tích $V$ của hình trụ $(T)$ có công thức là",
+              "choices": ["$V=\\dfrac{4}{3}\\pi r^2h$", "$V=\\dfrac{2}{3}\\pi r^2h$", "$V=\\pi r^2h$", "$V=\\dfrac{1}{3}\\pi r^2h$"],
+              "answer": 2,
+              "explanation": "Hình trụ: $V=\\text{diện tích đáy}\\times \\text{chiều cao}=\\pi r^2h$."
+            },
+            {
+              "text": "Gọi $l, h, r$ lần lượt là độ dài đường sinh, chiều cao và bán kính đáy của hình trụ $(T)$. Diện tích toàn phần $S_{tp}$ của hình trụ $(T)$ có công thức là",
+              "choices": ["$S_{tp}=\\pi rl+\\pi r^2$", "$S_{tp}=2\\pi rh+2\\pi r^2$", "$S_{tp}=\\pi rh+\\pi r^2$", "$S_{tp}=\\pi rl+2\\pi r^2$"],
+              "answer": 1,
+              "explanation": "Diện tích toàn phần: $S_{tp}=S_{xq}+2S_{\\text{đáy}}=2\\pi rh+2\\pi r^2$."
+            },
+            {
+              "text": "Diện tích xung quanh của hình nón có bán kính đáy $r$ và chiều cao $h$ là",
+              "choices": ["$S_{xq}=\\pi rh$", "$S_{xq}=\\pi r\\sqrt{r^2+h^2}$", "$S_{xq}=\\dfrac{1}{3}\\pi r^2h$", "$S_{xq}=\\pi r\\sqrt{r^2-h^2}$"],
+              "answer": 1,
+              "explanation": "Đường sinh $l=\\sqrt{r^2+h^2}$ nên $S_{xq}=\\pi rl=\\pi r\\sqrt{r^2+h^2}$."
+            },
+            {
+              "text": "Thể tích của hình nón có bán kính $r$ và chiều cao $h$ là",
+              "choices": ["$V=\\dfrac{1}{3}\\pi r^2h$", "$V=\\pi r^2h$", "$V=\\dfrac{4}{3}\\pi r^2h$", "$V=3\\pi r^2h$"],
+              "answer": 0,
+              "explanation": "Hình nón: $V=\\dfrac{1}{3}\\times \\text{diện tích đáy}\\times \\text{chiều cao}=\\dfrac{1}{3}\\pi r^2h$."
+            },
+            {
+              "text": "Cho hình chữ nhật có chiều dài $3\\text{ cm}$, chiều rộng $2\\text{ cm}$. Quay hình chữ nhật đó một vòng quanh chiều dài của nó ta được một hình trụ có diện tích xung quanh bằng",
+              "choices": ["$6\\pi\\ \\text{cm}^2$", "$12\\ \\text{cm}^2$", "$12\\pi\\ \\text{cm}^2$", "$18\\pi\\ \\text{cm}^2$"],
+              "answer": 2,
+              "explanation": "Quay quanh chiều dài: $h=3$, $r=2$. $S_{xq}=2\\pi rh=2\\pi\\cdot 2\\cdot 3=12\\pi$."
+            },
+            {
+              "text": "Cho hình chữ nhật $MNPQ$ có $MN=16\\text{ cm}$, $NP=12\\text{ cm}$. Khi quay hình chữ nhật đã cho một vòng quanh cạnh $MN$ ta được một hình trụ có diện tích toàn phần (lấy $\\pi\\approx 3{,}14$) khoảng",
+              "choices": ["$2813{,}44\\ \\text{cm}^2$", "$1055{,}04\\ \\text{cm}^2$", "$2110{,}08\\ \\text{cm}^2$", "$1205{,}76\\ \\text{cm}^2$"],
+              "answer": 2,
+              "explanation": "Quay quanh $MN$: $h=16$, $r=12$. $S_{tp}=2\\pi rh+2\\pi r^2=2\\pi\\cdot 12\\cdot 16+2\\pi\\cdot 12^2=672\\pi\\approx 2110{,}08$."
+            },
+            {
+              "text": "Cho hình chữ nhật có chiều dài $10\\text{ cm}$, chiều rộng $7\\text{ cm}$. Quay hình chữ nhật đó một vòng quanh chiều dài của nó ta được một hình trụ có thể tích bằng",
+              "choices": ["$700\\pi\\ \\text{cm}^3$", "$490\\pi\\ \\text{cm}^3$", "$980\\pi\\ \\text{cm}^3$", "$490\\pi^3\\ \\text{cm}^3$"],
+              "answer": 1,
+              "explanation": "Quay quanh chiều dài: $h=10$, $r=7$. $V=\\pi r^2h=\\pi\\cdot 7^2\\cdot 10=490\\pi$."
+            },
+            {
+              "text": "Cho hình trụ có bán kính đáy $r=8\\text{ cm}$ và diện tích toàn phần $S_{tp}=564\\pi\\ \\text{cm}^2$. Chiều cao của hình trụ bằng",
+              "choices": ["$27{,}25\\text{ cm}$", "$32{,}25\\text{ cm}$", "$70{,}5\\text{ cm}$", "$54{,}5\\text{ cm}$"],
+              "answer": 0,
+              "explanation": "$S_{tp}=2\\pi r(h+r)\\Rightarrow 564\\pi=2\\pi\\cdot 8(h+8)\\Rightarrow h+8=35{,}25\\Rightarrow h=27{,}25$."
+            },
+            {
+              "text": "Một hình trụ $(T)$ được tạo ra khi quay hình chữ nhật $ABCD$ một vòng quanh cạnh $AB$. Biết $AC=2a\\sqrt{2}$ và $\\angle ACB=45^\\circ$. Thể tích $V$ của hình trụ $(T)$ là",
+              "choices": ["$V=16\\pi a^3$", "$V=8\\pi a^3$", "$V=4\\pi a^3$", "$V=12\\pi a^3$"],
+              "answer": 1,
+              "explanation": "Tam giác $ACB$ vuông tại $B$: $AB=AC\\sin45^\\circ=2a$, $BC=AC\\cos45^\\circ=2a$. Quay quanh $AB$: $h=AB=2a$, $r=BC=2a$. $V=\\pi r^2h=\\pi(2a)^2\\cdot 2a=8\\pi a^3$."
+            }
+          ]
+        }        ,
+        {
+          "title": "Vi-ét và ứng dụng",
+          "timeLimit": 0,
+          "questions": [
+            {
+              "text": "Cho parabol $(P):\\ y=x^2$ và đường thẳng $(d):\\ y=2mx-m+1\\ (m\\neq 0)$. Tìm $m$ để $(d)$ cắt $(P)$ tại hai điểm phân biệt $A,B$ có hoành độ $x_1,x_2$ thỏa mãn $|x_1-x_2|=2$.",
+              "type": "input",
+              "answerText": "1",
+              "explanation": "$$\\begin{aligned}\n&x^2=2mx-m+1\\ \\Leftrightarrow\\ x^2-2mx+m-1=0\\ (\\*)\\\\\n&\\Delta'=\\left(m-\\tfrac12\\right)^2+\\tfrac34>0\\ \\forall m\\Rightarrow (\\*)\\text{ luôn có 2 nghiệm }x_1\\ne x_2.\\\\\n&\\text{Theo Vi-ét: }x_1+x_2=2m,\\ \\ x_1x_2=m-1.\\\\\n&|x_1-x_2|=2\\ \\Leftrightarrow\\ (x_1-x_2)^2=4\\\\\n&\\Leftrightarrow\\ (x_1+x_2)^2-4x_1x_2=4\\\\\n&\\Leftrightarrow\\ (2m)^2-4(m-1)=4\\\\\n&\\Leftrightarrow\\ 4m^2-4m+4=4\\ \\Rightarrow\\ 4m^2-4m=0\\\\\n&\\Rightarrow\\ m(m-1)=0\\Rightarrow m=1\\ (\\text{do }m\\ne 0).\n\\end{aligned}$$"
+            },
+            {
+              "text": "Trong mặt phẳng tọa độ $Oxy$, cho parabol $(P):\\ y=x^2$ và đường thẳng $(d):\\ y=kx+1\\ (k\\ \\text{là tham số})$. Tìm $k$ để $(d)$ cắt $(P)$ tại hai điểm phân biệt $M,N$ sao cho $MN=2\\sqrt{10}$.",
+              "type": "input",
+              "answerText": "2; -2",
+              "explanation": "$$\\begin{aligned}\n&x^2=kx+1\\ \\Leftrightarrow\\ x^2-kx-1=0\\Rightarrow x_1+x_2=k,\\ x_1x_2=-1.\\\\\n&\\text{Vì }M(x_1,y_1),N(x_2,y_2)\\in (d)\\Rightarrow y_2-y_1=k(x_2-x_1).\\\\\n&MN^2=(x_2-x_1)^2+(y_2-y_1)^2=(x_2-x_1)^2+k^2(x_2-x_1)^2=(1+k^2)(x_2-x_1)^2.\\\\\n&(2\\sqrt{10})^2=40=(1+k^2)(x_2-x_1)^2.\\\\\n&\\text{Mà }(x_2-x_1)^2=(x_1+x_2)^2-4x_1x_2=k^2-4(-1)=k^2+4.\\\\\n&\\Rightarrow\\ (1+k^2)(k^2+4)=40\\\\\n&\\Rightarrow\\ k^4+5k^2-36=0.\\ \\text{Đặt }t=k^2\\ge 0:\\ t^2+5t-36=0\\\\\n&\\Rightarrow\\ t=4\\ (\\text{vì }t=-9\\ \\text{loại})\\Rightarrow k^2=4\\Rightarrow k=\\pm 2.\n\\end{aligned}$$"
+            },
+            {
+              "text": "Cho parabol $(P):\\ y=-x^2$ và đường thẳng $(d):\\ y=(3-m)x+2-2m$. Tìm $m$ để $(d)$ cắt $(P)$ tại hai điểm phân biệt có tọa độ $(x_1,y_1)$ và $(x_2,y_2)$ sao cho $|y_1-y_2|=2$.",
+              "type": "input",
+              "answerText": "-1.45; -0.41; 2.41; 3.45",
+              "explanation": "$$\\begin{aligned}\n&-x^2=(3-m)x+2-2m\\ \\Leftrightarrow\\ x^2+(3-m)x+2-2m=0\\ (1).\\\\\n&\\Delta=(3-m)^2-4(2-2m)=(m+1)^2.\\ \\text{Hai nghiệm phân biệt }\\Leftrightarrow\\Delta>0\\Leftrightarrow m\\ne -1.\\\\\n&\\text{Theo Vi-ét: }x_1+x_2=m-3,\\ \\ x_1x_2=2-2m.\\\\\n&y_1=(3-m)x_1+2-2m,\\quad y_2=(3-m)x_2+2-2m\\\\\n&\\Rightarrow\\ y_1-y_2=(3-m)(x_1-x_2).\\\\\n&|y_1-y_2|=2\\ \\Leftrightarrow\\ (3-m)^2(x_1-x_2)^2=4.\\\\\n&(x_1-x_2)^2=(x_1+x_2)^2-4x_1x_2=(m-3)^2-4(2-2m)=(m+1)^2.\\\\\n&\\Rightarrow\\ (3-m)^2(m+1)^2=4\\ \\Leftrightarrow\\ |(m-3)(m+1)|=2.\\\\\n&\\Rightarrow\\ (m-3)(m+1)=2\\ \\text{ hoặc }\\ (m-3)(m+1)=-2.\\\\\n&\\Rightarrow\\ m^2-2m-5=0\\Rightarrow m=1\\pm\\sqrt6.\\\\\n&\\Rightarrow\\ m^2-2m-1=0\\Rightarrow m=1\\pm\\sqrt2.\\\\\n&\\sqrt6\\approx2.45,\\ \\sqrt2\\approx1.41\\ \\Rightarrow\\ m\\approx 1-2.45=-1.45;\\ 1-1.41=-0.41;\\ 1+1.41=2.41;\\ 1+2.45=3.45.\n\\end{aligned}$$"
+            },
+            {
+              "text": "Cho parabol $(P):\\ y=x^2$ và đường thẳng $(d):\\ y=2mx-m^2-2m+3$ (với $m$ là tham số). Tìm tất cả các giá trị của $m$ để $(d)$ cắt $(P)$ tại hai điểm phân biệt $A,B$ nằm bên phải trục tung. Biết nghiệm thu được có dạng $a>m>b$. Tính $a+b$.",
+              "type": "input",
+              "answerText": "2.50",
+              "explanation": "$$\\begin{aligned}\n&\\text{Giao điểm }(d)\\cap(P):\\ x^2=2mx-m^2-2m+3\\\\\n&\\Leftrightarrow\\ x^2-2mx+m^2+2m-3=0\\ (1).\\\\\n&\\text{Để có 2 giao điểm phân biệt: }\\Delta>0.\\\\\n&\\Delta=(-2m)^2-4(m^2+2m-3)=4m^2-4m^2-8m+12=4(3-2m).\\\\\n&\\Rightarrow\\Delta>0\\Leftrightarrow 3-2m>0\\Leftrightarrow m<\\tfrac32.\\quad (\\*)\\\\\n&\\text{Theo Vi-ét: }x_1+x_2=2m,\\quad x_1x_2=m^2+2m-3.\\\\\n&\\text{Để }A,B\\text{ nằm bên phải trục tung }\\Leftrightarrow x_1>0,\\ x_2>0\\\\\n&\\Leftrightarrow\\begin{cases}x_1+x_2>0\\\\ x_1x_2>0\\end{cases}\n\\Leftrightarrow\\begin{cases}2m>0\\\\ m^2+2m-3>0\\end{cases}\n\\Leftrightarrow\\begin{cases}m>0\\\\ (m-1)(m+3)>0\\end{cases}\\\\\n&\\Rightarrow m>0\\ \\text{và}\\ (m>1\\ \\text{hoặc}\\ m<-3)\\Rightarrow m>1.\\quad (\\*\\*)\\\\\n&\\text{Kết hợp }(\\*)\\text{ và }(\\*\\*)\\Rightarrow 1<m<\\tfrac32.\\\\\n&\\text{Vậy có thể viết }a>m>b\\text{ với }a=\\tfrac32,\\ b=1.\\\\\n&a+b=\\tfrac32+1=\\tfrac52=2.50.\n\\end{aligned}$$"
+            }, 
+            {
+              "text": "Trên mặt phẳng tọa độ $Oxy$ cho parabol $(P):\\ y=x^2$ và đường thẳng $(d):\\ y=(k-1)x+4$. Tính tích các giá trị của $k$ để $(d)$ cắt $(P)$ tại hai điểm phân biệt $(x_1,y_1)$ và $(x_2,y_2)$ sao cho $y_1+y_2=y_1y_2$.",
+              "type": "input",
+              "answerText": "-7.00",
+              "explanation": "$$\\begin{aligned}\n&\\text{Giao điểm: }x^2=(k-1)x+4\\ \\Leftrightarrow\\ x^2-(k-1)x-4=0.\\\\\n&\\text{Theo Vi-ét: }x_1+x_2=k-1,\\quad x_1x_2=-4.\\\\\n&y_1=x_1^2,\\ y_2=x_2^2.\\\\\n&y_1+y_2=y_1y_2\\ \\Leftrightarrow\\ x_1^2+x_2^2=x_1^2x_2^2.\\\\\n&x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=(k-1)^2-2(-4)=(k-1)^2+8.\\\\\n&x_1^2x_2^2=(x_1x_2)^2=(-4)^2=16.\\\\\n&\\Rightarrow (k-1)^2+8=16\\Rightarrow (k-1)^2=8\\Rightarrow k=1\\pm 2\\sqrt2.\\\\\n&\\text{Tích các giá trị }k:\\ (1+2\\sqrt2)(1-2\\sqrt2)=1-(2\\sqrt2)^2=1-8=-7.\n\\end{aligned}$$"
+            },
+             {
+              "text": "Tìm $m$ để đường thẳng $(d):\\ y=x+m$ cắt parabol $(P):\\ y=x^2$ tại hai điểm phân biệt $A(x_1,y_1),\\ B(x_2,y_2)$ sao cho $(x_2-x_1)^{2014}+(y_2-y_1)^{2014}=2$.",
+              "type": "input",
+              "answerText": "0",
+              "explanation": "$$\\begin{aligned}\n&\\text{Giao điểm: }x^2=x+m\\ \\Leftrightarrow\\ x^2-x-m=0\\ (1).\\\\\n&\\text{Có 2 nghiệm phân biệt }\\Leftrightarrow\\Delta=1+4m>0\\Rightarrow m>-\\tfrac14.\\\\\n&\\text{Gọi }x_1,x_2\\text{ là nghiệm của (1). Theo Vi-ét: }x_1+x_2=1,\\ x_1x_2=-m.\\\\\n&y_1=x_1+m,\\ y_2=x_2+m\\Rightarrow y_2-y_1=x_2-x_1.\\\\\n&(x_2-x_1)^{2014}+(y_2-y_1)^{2014}=2\\\\\n&\\Rightarrow (x_2-x_1)^{2014}+(x_2-x_1)^{2014}=2\\\\\n&\\Rightarrow 2(x_2-x_1)^{2014}=2\\Rightarrow (x_2-x_1)^{2014}=1\\Rightarrow (x_2-x_1)^2=1.\\\\\n&(x_2-x_1)^2=(x_1+x_2)^2-4x_1x_2=1^2-4(-m)=1+4m.\\\\\n&\\Rightarrow 1+4m=1\\Rightarrow m=0.\\\\\n&\\text{Kiểm tra: }m=0\\Rightarrow\\Delta=1>0\\Rightarrow\\text{cắt tại 2 điểm phân biệt.}\n\\end{aligned}$$"
+            },
+            {
+              "text": "Cho parabol $(P):\\ y=\\dfrac{1}{2}x^2$ và đường thẳng $d:\\ y=(m+1)x-m^2-\\dfrac{1}{2}$. Với giá trị nào của $m$ thì $d$ cắt $(P)$ tại hai điểm phân biệt $A(x_1,y_1),\\ B(x_2,y_2)$ sao cho biểu thức $T=y_1+y_2-x_1x_2$ đạt giá trị nhỏ nhất?",
+              "type": "input",
+              "answerText": "0; 2",
+              "explanation": "$$\\begin{aligned}\n&\\text{Giao điểm: }\\frac12x^2=(m+1)x-m^2-\\frac12\\\\\n&\\Leftrightarrow x^2-2(m+1)x+2m^2+1=0\\ (\\*).\\\\\n&\\Delta=[-2(m+1)]^2-4(2m^2+1)=4\\big((m+1)^2-2m^2-1\\big)=4(2m-m^2).\\\\\n&\\text{Có 2 nghiệm phân biệt }\\Leftrightarrow \\Delta>0\\Leftrightarrow 2m-m^2>0\\Leftrightarrow 0<m<2.\\\\\n&\\text{Theo Vi-ét: }x_1+x_2=2(m+1),\\quad x_1x_2=2m^2+1.\\\\\n&y_1=\\frac12x_1^2,\\ y_2=\\frac12x_2^2\\\\\n&\\Rightarrow T=y_1+y_2-x_1x_2=\\frac12(x_1^2+x_2^2)-x_1x_2\\\\\n&=\\frac12\\big((x_1+x_2)^2-2x_1x_2\\big)-x_1x_2=\\frac12(x_1+x_2)^2-2x_1x_2.\\\\\n&=\\frac12\\big(2(m+1)\\big)^2-2(2m^2+1)=2(m+1)^2-4m^2-2\\\\\n&=-2m^2+4m=-2(m-1)^2+2.\\\\\n&\\text{Trên }(0,2),\\ (m-1)^2\\ge 0\\Rightarrow T\\le 2.\\ \\text{Giá trị nhỏ nhất xảy ra khi }(m-1)^2\\text{ lớn nhất.}\\\\\n&\\text{Trên }[0,2],\\ (m-1)^2\\le 1\\ \\text{và đạt }1\\text{ tại }m=0\\text{ hoặc }m=2.\\\\\n&\\Rightarrow T_{\\min}=-2\\cdot 1+2=0\\ \\text{khi }m=0\\text{ hoặc }m=2.\n\\end{aligned}$$"
+            }
+          ]
+        }
+
+      ]
+    }

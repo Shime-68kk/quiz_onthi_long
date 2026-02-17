@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/quiz_onthi_long/sw.js', { scope: '/quiz_onthi_long/' })})}
